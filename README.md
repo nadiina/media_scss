@@ -1,9 +1,13 @@
-# media_indus_scss
+# media_scss
 
-We can randomly generate a page and find out its **HEX designation**.
+Display variations on different screens
 _ _ _
 ## Result
-#### Full page in process 
+---
+>#### Browser
+>![Full](/res/full.png)
 
->
-[![Watch the video](/res/srrin2.png)](/res/random.mp4)
+---
+>#### Mobile
+>![mobile](/res/mobile.png)
+

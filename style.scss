@@ -1,14 +1,3 @@
-// $color-1: #cdb4db; //mobile
-// $color-2: #fff1e6; //tablet
-// $color-3: #52b788; //laptop
-// $color-4: #bee1e6; //decktop
-
-// $mobile: 576px;
-// $tablet: 768px;
-// $laptop: 992px;
-// $decktop: 1200px;
-
-
 * {
     margin: 0px 5px;
     padding: 0px;
@@ -31,6 +20,7 @@
 
     &__logo {
         font-size: 4vw;
+        text-transform: uppercase;
     }
 
     &__menu {
@@ -42,29 +32,23 @@
 }
 
 
-
 .main {
     height: 80%;
-    // border: 2px solid black;
-
     display: flex;
     flex-direction: row;
 
 
     &__image {
-        background-image: url('./img/Portait1.jpg');
+        background-image: url('./img/Portrait1.jpg');
         background-size: contain;
         background-position: left center;
         background-repeat: no-repeat;
         width: 50%;
-
-        // border: 2px solid red;
+           
     }
 
     &__text {
         width: 50%;
-        // border: 2px solid red;
-
         display: grid;
         display: flex;
         justify-content: center;
@@ -86,11 +70,8 @@
 }
 
 
-
 .footer {
     height: 10%;
-    // border: 2px solid green;
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -160,23 +141,6 @@
     }
 }
 
-// .conteiner {
-//     // border: red;
-//     height: 100vh;
-
-//     // display: flex;
-//     // justify-content: center;
-//     // align-items: center;
-
-//     display: grid;
-//     place-content: center;
-//     background-color: $color-1;
-
-// }
-
-// .text{
-
-// }
 
 #size {
     position: absolute;
@@ -188,30 +152,3 @@
     color: red;
 }
 
-// @media (max-width: $decktop)  {
-//     //your styles are here
-// .conteiner{
-//     background-color: $color-4;
-// }
-// }
-
-// @media (max-width: $laptop)  {
-//     //your styles are here
-// .conteiner{
-//     background-color: $color-3;
-// }
-// }
-
-// @media (max-width: $tablet)  {
-//     //your styles are here
-// .conteiner{
-//     background-color: $color-2;
-// }
-// }
-
-// @media (max-width: $mobile)  {
-//     //your styles are here
-// .conteiner{
-//     background-color: $color-1;
-// }
-// }
